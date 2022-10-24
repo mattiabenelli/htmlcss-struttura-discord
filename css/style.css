@@ -76,3 +76,39 @@ header{
     border: dashed black 1px;
     margin: 50px 0;
 }
+footer{
+    background-color: black;
+}
+.container_footer_1{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+.col_info, .col_prod, .col_comp, .col_risorse, .col_norme{
+    height: 200px;
+    border: dashed black 1px;
+    background-color: aquamarine;
+}
+.col_prod, .col_comp, .col_risorse, .col_norme{
+    width: calc(70% / 4);
+}
+.col_info{
+    width: 30%;
+    background-color: salmon;
+}
+.container_footer_2{
+    height: 70px;
+    width: 1000px;
+    margin: 30px auto;
+    padding-top: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between ;
+}
+.col_logo_bottom, .col_registrati{
+    height: 20px;
+    border: dashed black 1px;
+    background-color: burlywood;
+}
