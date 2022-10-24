@@ -2,5 +2,41 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: aqua;
+}
+/* Struttura */
+header{
+    background-color: lightblue;
+}
+.container_header{
+    height: 70px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.col_logo, .col_link, .col_login{
+    height: 50px;
+    border: dashed black 1px;
+    background-color: burlywood;
+}
+.col_logo, .col_login{
+    width: 25%;
+}
+.col_link{
+    width: 50%;
+}
+.blue-container{
+    background-color: blue;
+}
+.download{
+    width: 800px;
+    height: 400px;
+    background-color: violet;
+    border: dashed black 1px;
+    margin: 50px 0;
 }
